@@ -1,0 +1,6 @@
+# _config.yml
+title: links
+description: ###
+baseurl: "fabian.id"
+url: "cubeindustry.github.io"
+permalink: /:title/
