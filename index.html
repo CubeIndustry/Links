@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Persönliche Links von Fabian Lehradt.">
+    <meta name="author" content="Fabian Lehradt">
+    <meta name="keywords" content="Fabian Lehradt, Links, Discord, Twitch, YouTube, Github, Aternos">
+    <title>fabian.id</title>
+    <link rel="icon" href="icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="icon.png" type="image/png">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            margin-top: 2.5em;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #fff;
+            text-align: center;
+        }
+        .container {
+            max-width: 400px;
+            width: 100%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .bild {
+            width: 150px; 
+            height: 150px; 
+            overflow: hidden; 
+            border-radius: 50%; 
+            margin: 0 auto; 
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+        }
+        .bild img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+            border-radius: 50%; 
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 20px 0;
+        }
+        p {
+            margin: 10px 0 20px;
+        }
+        .links {
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .links a {
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 10px 0;
+            transition: background-color 0.3s;
+            width: 100%;
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+        }
+        .discord {
+            background-color: #5662F6; 
+            color: white; 
+        }
+        .discord:hover {
+            background-color: #4b54db; 
+        }
+        .twitch {
+            background-color: #A645FF; 
+            color: white; 
+        }
+        .twitch:hover {
+            background-color: #7734c5; 
+        }
+        .youtube {
+            background-color: #000; 
+            color: #fff; 
+            border: 1px solid #ccc; 
+        }
+        .youtube:hover {
+            background-color: #333; 
+        }
+        .aternos {
+            background-color: #fff; 
+            color: #000; 
+            border: 1px solid #ccc; 
+        }
+        .aternos:hover {
+            background-color: #f0f0f0; 
+        }
+        .github {
+            background-color: #1B1F23; 
+            color: white; 
+        }
+        .github:hover {
+            background-color: #333; 
+        }
+        .discord-image,
+        .twitch-image,
+        .youtube-image,
+        .aternos-image,
+        .github-image {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px; 
+        }
+        .twitch-image{
+            margin-right: 20px;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            .links a {
+                padding: 8px 16px;
+            }
+        }
+    </style>
+      <script>
+        function showAlert() {
+            alert("Benutzername: CubeIndustry");
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="bild">
+            <img src="bild.png" alt="Profilbild von Fabian Lehradt">
+        </div>
+        <h1><strong>Fabians Links</strong></h1>
+        <p>Hey du Stalker :)</p>
+        <div class="links">
+            <a href="https://discord.com/users/1151971830983311441" class="discord">
+                <img src="discord.png" alt="Discord-Logo" class="discord-image">
+                <span>Discord</span>
+            </a>
+            <a href="https://twitch.tv/cubebuilder_live" class="twitch">
+                <img src="twitch.png" alt="Twitch-Logo" class="twitch-image">
+                <span>Twitch</span>
+            </a>
+            <a href="https://www.youtube.com/@FabianLehradt" class="youtube">
+                <img src="youtube.png" alt="YouTube-Logo" class="youtube-image">
+                <span>YouTube</span>
+            </a>
+            <a href="#" onclick="showAlert(); return false;" class="aternos">
+                <img src="aternos.png" alt="Aternos-Logo" class="aternos-image">
+                <span>Aternos</span>
+            </a>
+            <a href="https://github.com/CubeIndustry" class="github">
+                <img src="github.png" alt="GitHub-Logo" class="github-image">
+                <span>GitHub</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
